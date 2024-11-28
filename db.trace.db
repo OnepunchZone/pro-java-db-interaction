@@ -1,0 +1,19 @@
+2024-11-11 21:21:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2024-11-28 21:20:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" уже существует
+Table "USERS" already exists; SQL statement:
+create table users (id bigserial primary key, login varchar(255), password varchar(255), nickname varchar(255)) [42101-200]
+2024-11-28 21:24:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" уже существует
+Table "USERS" already exists; SQL statement:
+create table users (id bigserial primary key, login varchar(255), password varchar(255), nickname varchar(255)) [42101-200]
+2024-11-29 01:51:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" уже существует
+Table "USERS" already exists; SQL statement:
+create table users (id bigserial primary key, login varchar(255), password varchar(255), nickname varchar(255)) [42101-200]
+2024-11-29 02:05:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" уже существует
+Table "USERS" already exists; SQL statement:
+create table users (id bigserial primary key, login varchar(255), password varchar(255), nickname varchar(255)) [42101-200]
